@@ -2,10 +2,10 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import RegisterForm from '../components/RegisterForm';
 
-const RegisterScreen = ({ navigation }) => {
+const RegisterScreen = ({navigation}) => {
     return (
         <View style={styles.container}>
-            <RegisterForm navigation={navigation} />
+            <RegisterForm  navigation={navigation}/>
         </View>
     );
 };

@@ -2,13 +2,13 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import LoginForm from '../components/LoginForm';
 
-const LoginScreen = ({ navigation }) => {
+function LoginScreen ({ navigation })  {
     return (
         <View style={styles.container}>
             <LoginForm navigation={navigation} />
         </View>
     );
-};
+}
 
 const styles = StyleSheet.create({
     container: {
